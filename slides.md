@@ -183,6 +183,10 @@ Thank you, @ashedryden! You're too kind. <3 I can't wait for your keynote tomorr
 
 !SLIDE
 
+# After the tweets have been sent, if all 200 twitter followers open their twitter clients, then its at most 200 requests.
+
+!SLIDE
+
 # Pull requests are cheap so it's easy to do many at the same time.
 
 !SLIDE
@@ -215,11 +219,11 @@ Thank you, @ashedryden! You're too kind. <3 I can't wait for your keynote tomorr
 
 !SLIDE
 
-# Every pull hits the cache everytime, so no one is ever hitting the server.
+# Every pull request hits the cache every time, so no one is ever hitting the server.
 
 !SLIDE
 
-# The server effectively pushes to the cache to update it, which is inexpensive because the server is guaranteed to have one client.
+# The server effectively pushes to the cache to update it, which is inexpensive because the server is guaranteed to have only one client: the cache.
 
 !SLIDE
 
@@ -231,7 +235,7 @@ Thank you, @ashedryden! You're too kind. <3 I can't wait for your keynote tomorr
 
 !SLIDE
 
-# It is much more reasonable less complex for a client to keep track of their own failures and retries.
+# It is much more reasonable and less complex for a client to keep track of their own failures and retries.
 
 !SLIDE
 
@@ -261,10 +265,14 @@ Thank you, @ashedryden! You're too kind. <3 I can't wait for your keynote tomorr
 
 # So the publisher notifies the hub, then the hub notifies the subscriber.
 
+!SLIDES
+
+# The hub is expensive, but all of the publishers aren't expensive.
+
 !SLIDE
 
-# OStatus is a micro blogging protocol that is built ontop of PubHubSubBub
-# rstat.us is an open source prject that uses OStatus.
+# OStatus is a microblogging protocol that is built on top of PubHubSubBub
+# rstat.us is an open source project that uses OStatus.
 
 !SLIDE
 
@@ -300,7 +308,7 @@ Thank you, @ashedryden! You're too kind. <3 I can't wait for your keynote tomorr
 
 !SLIDE
 
-# If you're a start up you are probably doing new and exciting things!
+# If you're a startup you are probably doing new and exciting things!
 
 !SLIDE
 
