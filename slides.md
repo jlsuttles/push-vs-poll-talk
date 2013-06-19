@@ -6,6 +6,10 @@
 
 !SLIDE
 
+# [http://jlsuttles.github.io/push-vs-poll-talk/](http://jlsuttles.github.io/push-vs-poll-talk/)
+
+!SLIDE
+
 # Jessica Lynn Suttles
 ## @jlsuttles
 ### jlsuttles.com
