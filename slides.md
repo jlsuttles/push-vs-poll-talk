@@ -5,8 +5,7 @@
 # Polling: It's Good Enough for the WWW & It's Good Enough for You
 
 !SLIDE
-
-# [http://jlsuttles.github.io/push-vs-poll-talk/](http://jlsuttles.github.io/push-vs-poll-talk/)
+# [http://jlsuttles.github.io/push-vs-poll-talk/slides.html](http://jlsuttles.github.io/push-vs-poll-talk/slides.html)
 
 !SLIDE
 
